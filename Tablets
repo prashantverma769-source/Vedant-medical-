@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedant Medical - Add Tablet</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    margin:20px;
+}
+.container{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+}
+h2{
+    color:#d60000;
+    text-align:center;
+}
+input,select,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+button{
+    width:100%;
+    padding:12px;
+    background:#d60000;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h2>Add Tablet Details</h2>
+
+<input type="text" placeholder="Medicine Name">
+<input type="text" placeholder="Generic Name">
+<input type="text" placeholder="Company Name">
+<input type="text" placeholder="Category">
+
+<input type="text" placeholder="Strength (500 mg)">
+<input type="text" placeholder="Dosage Form (Tablet/Capsule)">
+
+<input type="text" placeholder="Batch Number">
+<input type="month" placeholder="Expiry Date">
+
+<input type="number" placeholder="Pack Size">
+<input type="number" placeholder="Stock Quantity">
+
+<input type="number" placeholder="Purchase Price">
+<input type="number" placeholder="MRP">
+<input type="number" placeholder="Selling Price">
+
+<input type="text" placeholder="HSN Code">
+<input type="number" placeholder="GST %">
+
+<select>
+<option>Prescription Required</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<textarea placeholder="Notes"></textarea>
+
+<button>Add Medicine</button>
+
+</div>
+
+</body>
+</html>
