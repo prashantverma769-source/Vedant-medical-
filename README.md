@@ -1,83 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vedant Medical</title>
-<link rel="stylesheet" href="style.css">
-</head>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
 
-<body>
+body{
+    background:#f5f7fa;
+    color:#333;
+}
 
-<header>
-    <div class="logo">
-        <h1>💊 Vedant Medical</h1>
-    </div>
+header{
+    background:#d32f2f;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Order</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+nav{
+    margin-top:15px;
+}
 
-<section class="hero">
-    <h2>Your Trusted Medical Store</h2>
-    <p>All Medicines, Healthcare Products & Fast Service</p>
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
 
-    <a href="#" class="btn">Shop Now</a>
-</section>
+nav a:hover{
+    color:#ffeb3b;
+}
 
-<section class="services">
+.hero{
+    background:#ffffff;
+    text-align:center;
+    padding:80px 20px;
+}
 
-<h2>Our Services</h2>
+.hero h2{
+    font-size:40px;
+    color:#d32f2f;
+}
 
-<div class="box">
-<h3>💊 All Medicines</h3>
-<p>Branded & Generic Medicines Available</p>
-</div>
+.hero p{
+    margin:15px 0;
+    font-size:18px;
+}
 
-<div class="box">
-<h3>🚚 Fast Delivery</h3>
-<p>Quick Delivery in Nearby Areas</p>
-</div>
+.btn{
+    display:inline-block;
+    background:#d32f2f;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
 
-<div class="box">
-<h3>🩺 Healthcare Products</h3>
-<p>Medical Equipment & Daily Care Products</p>
-</div>
+.btn:hover{
+    background:#b71c1c;
+}
 
-</section>
+.services{
+    padding:50px 20px;
+    text-align:center;
+}
 
-<section class="about">
+.services h2{
+    margin-bottom:30px;
+}
 
-<h2>About Vedant Medical</h2>
+.box{
+    background:white;
+    width:300px;
+    display:inline-block;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
 
-<p>
-Vedant Medical provides quality medicines and healthcare products at affordable prices.
-Customer satisfaction is our priority.
-</p>
+.about,
+.contact{
+    padding:40px 20px;
+    text-align:center;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+}
 
-</section>
-
-<section class="contact">
-
-<h2>Contact Us</h2>
-
-<p>📍 Modakpur, Begamganj–Sultanganj Road, Madhya Pradesh</p>
-
-<p>📞 7974841935</p>
-
-<p>📞 7974841935</p>
-
-</section>
-
-<footer>
-<p>© 2026 Vedant Medical. All Rights Reserved.</p>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
